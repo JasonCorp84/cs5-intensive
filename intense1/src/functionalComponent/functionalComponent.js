@@ -1,8 +1,10 @@
 import React from 'react';
 
-const functionalComponent = () => {
+const functionalComponent = (props) => {
   return (
-    <div>This is a functional component</div>
+    <div>
+      <p>{props.blanket}</p>
+    </div>
   )
 }
 
